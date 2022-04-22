@@ -1,7 +1,7 @@
 import express from 'express';
-import { routerCarts } from './src/routes/cart.js';
-import { routerProducts } from './src/routes/product.js'
-import { validateAdmin } from './src/middleware/middleware.js';
+import { routerCarts } from './routes/cart.js';
+import { routerProducts } from './routes/product.js'
+import { validateAdmin } from './middleware/middleware.js';
 
 const app = express()
 const PORT = 8080
